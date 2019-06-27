@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="FONT_FAMILY" category="font">&quot;Open Sans&quot;</string>
+  <dimen name="FONT_WEIGHT_REGULAR" category="font">400</dimen>
+  <dimen name="FONT_WEIGHT_MEDIUM" category="font">600</dimen>
+  <dimen name="FONT_WEIGHT_BOLD" category="font">700</dimen>
+  <dimen name="VAR_FONT_SIZE_1" category="font">28sp</dimen>
+  <dimen name="VAR_FONT_SIZE_2" category="font">24sp</dimen>
+  <dimen name="VAR_FONT_SIZE_3" category="font">22sp</dimen>
+  <dimen name="VAR_FONT_SIZE_4" category="font">20sp</dimen>
+  <dimen name="VAR_FONT_SIZE_5" category="font">18sp</dimen>
+  <dimen name="VAR_FONT_SIZE_6" category="font">16sp</dimen>
+  <dimen name="VAR_FONT_SIZE_7" category="font">14sp</dimen>
+  <dimen name="VAR_FONT_SIZE_8" category="font">12sp</dimen>
+  <dimen name="VAR_FONT_SIZE_9" category="font">10sp</dimen>
+  <dimen name="LINE_HEIGHT_HEADING" category="font">36sp</dimen>
+  <dimen name="LINE_HEIGHT_TITLE" category="font">32sp</dimen>
+  <dimen name="LINE_HEIGHT_SUBHEADING" category="font">28sp</dimen>
+  <dimen name="LINE_HEIGHT_BODY" category="font">24sp</dimen>
+  <dimen name="LINE_HEIGHT_PARAGRAPH" category="font">20sp</dimen>
+  <dimen name="LINE_HEIGHT_SMALL_PARAGRAPH" category="font">16sp</dimen>
+  <dimen name="LETTER_SPACING_NARROW" category="font">-0.02</dimen>
+  <dimen name="LETTER_SPACING_XNARROW" category="font">-0.03</dimen>
+  <dimen name="LETTER_SPACING_NORMAL" category="font">-0.01</dimen>
+  <color name="BLACK" category="colors">#ff000000</color>
+  <color name="WHITE" category="colors">#ffffffff</color>
+  <color name="BLACK_GRAY_1" category="colors">#ff282828</color>
+  <color name="BLACK_GRAY_2" category="colors">#ff595959</color>
+  <color name="BLACK_GRAY_3" category="colors">#ffe2e2e2</color>
+  <color name="BLACK_GRAY_4" category="colors">#fffafafa</color>
+  <color name="ACCENT_RED_1" category="colors">#ffab2634</color>
+  <color name="ACCENT_RED_2" category="colors">#ff800d15</color>
+  <color name="ACCENT_RED_3" category="colors">#ff9a1c27</color>
+  <color name="ACCENT_RED_4" category="colors">#ffe6bec2</color>
+  <color name="ACCENT_BLUE_1" category="colors">#ffcde5ef</color>
+  <color name="ACCENT_BLUE_2" category="colors">#ffc1deeb</color>
+  <color name="ACCENT_BLUE_3" category="colors">#ffaed3e4</color>
+  <color name="ACCENT_BLUE_4" category="colors">#ffdcedf4</color>
+  <color name="ACCENT_BLUE_5" category="colors">#fff0f7fa</color>
+  <color name="COLOR_BORDER_GRAY_1" category="colors">#ff282828</color>
+  <color name="COLOR_BORDER_GRAY_3" category="colors">#ffe1e1e1</color>
+  <color name="COLOR_BACKGROUND_GRAY_1" category="colors">#ff282828</color>
+  <color name="COLOR_BACKGROUND_ACCENT_RED" category="colors">#ffab2634</color>
+  <color name="COLOR_BACKGROUND_ACCENT_BLUE" category="colors">#ffcde5ef</color>
+  <color name="COLOR_BACKGROUND_WHITE" category="colors">#ffffffff</color>
+  <color name="COLOR_TEXT_GRAY_1" category="colors">#ff282828</color>
+  <color name="COLOR_TEXT_GRAY_2" category="colors">#ff595959</color>
+  <color name="COLOR_TEXT_RED" category="colors">#ffab2634</color>
+  <color name="COLOR_TEXT_WHITE" category="colors">#ffffffff</color>
+  <dimen name="VAR_SPACING_XSMALL" category="Sacings">4dp</dimen>
+  <dimen name="VAR_SPACING_SMALL" category="Sacings">8dp</dimen>
+  <dimen name="VAR_SPACING_QUITE_SMALL" category="Sacings">12dp</dimen>
+  <dimen name="VAR_SPACING_BASE" category="Sacings">16dp</dimen>
+  <dimen name="VAR_SPACING_BIG" category="Sacings">24dp</dimen>
+  <dimen name="VAR_SPACING_LARGE" category="Sacings">32dp</dimen>
+  <dimen name="VAR_SPACING_XLARGE" category="Sacings">40dp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_BASE" category="Sacings">16dp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_BIG" category="Sacings">24dp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_LARGE" category="Sacings">32dp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_XLARGE" category="Sacings">48dp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_XXLARGE" category="Sacings">64dp</dimen>
+  <dimen name="BORDER_WIDTH_THIN" category="sizing">1dp</dimen>
+  <dimen name="ICON_SMALL" category="sizing">16dp</dimen>
+  <dimen name="ICON_MEDIUM" category="sizing">24dp</dimen>
+  <dimen name="ICON_BIG" category="sizing">32dp</dimen>
+  <dimen name="ICON_HUGE" category="sizing">40dp</dimen>
+  <string name="MQ_SMALL" category="Media queries">&quot;max-width: 599px&quot;</string>
+  <string name="MQ_MEDIUM" category="Media queries">&quot;min-width: 600px&quot;</string>
+  <string name="MQ_LARGE" category="Media queries">&quot;min-width: 960px&quot;</string>
+  <string name="MQ_XLARGE" category="Media queries">&quot;min-width: 1440px&quot;</string>
+  <dimen name="BORDER_RADIUS_NONE" category="border-radius">0</dimen>
+  <dimen name="BORDER_RADIUS_CIRCLE" category="border-radius">0.5</dimen>
+</resources>

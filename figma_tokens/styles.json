@@ -1,0 +1,424 @@
+{
+  "props": [
+    {
+      "name": "font-family",
+      "value": "Open Sans",
+      "type": "string",
+      "category": "font"
+    },
+    {
+      "name": "font-weight-regular",
+      "value": "400",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "font-weight-medium",
+      "value": "600",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "font-weight-bold",
+      "value": "700",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-1",
+      "value": "1.75rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-2",
+      "value": "1.5rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-3",
+      "value": "1.375rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-4",
+      "value": "1.25rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-5",
+      "value": "1.125rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-6",
+      "value": "1rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-7",
+      "value": "0.875rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-8",
+      "value": "0.75rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "var-font-size-9",
+      "value": "0.625rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "line-height-heading",
+      "value": "2.25rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "line-height-title",
+      "value": "2rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "line-height-subheading",
+      "value": "1.75rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "line-height-body",
+      "value": "1.5rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "line-height-paragraph",
+      "value": "1.25rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "line-height-small-paragraph",
+      "value": "1rem",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "letter-spacing-narrow",
+      "value": "-2%",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "letter-spacing-xnarrow",
+      "value": "-3%",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "letter-spacing-normal",
+      "value": "-1%",
+      "type": "size",
+      "category": "font"
+    },
+    {
+      "name": "black",
+      "value": "#000000",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFF",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "black-gray-1",
+      "value": "#282828",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "black-gray-2",
+      "value": "#595959",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "black-gray-3",
+      "value": "#E2E2E2",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "black-gray-4",
+      "value": "#FAFAFA",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-red-1",
+      "value": "#AB2634",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-red-2",
+      "value": "#800D15",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-red-3",
+      "value": "#9A1C27",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-red-4",
+      "value": "#E6BEC2",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-blue-1",
+      "value": "#CDE5EF",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-blue-2",
+      "value": "#C1DEEB",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-blue-3",
+      "value": "#AED3E4",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-blue-4",
+      "value": "#DCEDF4",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "accent-blue-5",
+      "value": "#F0F7FA",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-border-gray-1",
+      "value": "#282828",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-border-gray-3",
+      "value": "#E1E1E1",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-background-gray-1",
+      "value": "#282828",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-background-accent-red",
+      "value": "#AB2634",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-background-accent-blue",
+      "value": "#CDE5EF",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-background-white",
+      "value": "#ffffff",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-text-gray-1",
+      "value": "#282828",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-text-gray-2",
+      "value": "#595959",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-text-red",
+      "value": "#AB2634",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "color-text-white",
+      "value": "#ffffff",
+      "type": "color",
+      "category": "colors"
+    },
+    {
+      "name": "var-spacing-xsmall",
+      "value": "4px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-spacing-small",
+      "value": "8px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-spacing-quite-small",
+      "value": "12px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-spacing-base",
+      "value": "16px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-spacing-big",
+      "value": "24px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-spacing-large",
+      "value": "32px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-spacing-xlarge",
+      "value": "40px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-layout-spacing-base",
+      "value": "16px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-layout-spacing-big",
+      "value": "24px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-layout-spacing-large",
+      "value": "32px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-layout-spacing-xlarge",
+      "value": "48px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "var-layout-spacing-xxlarge",
+      "value": "64px",
+      "type": "size",
+      "category": "Sacings"
+    },
+    {
+      "name": "border-width-thin",
+      "value": "1px",
+      "type": "size",
+      "category": "sizing"
+    },
+    {
+      "name": "icon-small",
+      "value": "16px",
+      "type": "size",
+      "category": "sizing"
+    },
+    {
+      "name": "icon-medium",
+      "value": "24px",
+      "type": "size",
+      "category": "sizing"
+    },
+    {
+      "name": "icon-big",
+      "value": "32px",
+      "type": "size",
+      "category": "sizing"
+    },
+    {
+      "name": "icon-huge",
+      "value": "40px",
+      "type": "size",
+      "category": "sizing"
+    },
+    {
+      "name": "mq-small",
+      "value": "max-width: 599px",
+      "type": "string",
+      "category": "Media queries"
+    },
+    {
+      "name": "mq-medium",
+      "value": "min-width: 600px",
+      "type": "string",
+      "category": "Media queries"
+    },
+    {
+      "name": "mq-large",
+      "value": "min-width: 960px",
+      "type": "string",
+      "category": "Media queries"
+    },
+    {
+      "name": "mq-xlarge",
+      "value": "min-width: 1440px",
+      "type": "string",
+      "category": "Media queries"
+    },
+    {
+      "name": "border-radius-none",
+      "value": "0%",
+      "type": "size",
+      "category": "border-radius"
+    },
+    {
+      "name": "border-radius-circle",
+      "value": "50%",
+      "type": "size",
+      "category": "border-radius"
+    }
+  ]
+}

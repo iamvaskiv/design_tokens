@@ -116,6 +116,7 @@ html, body {
   font-family: $font-family;
   margin: 0;
   padding: 0;
+  font-size: $base-size;
 }
 
 body {
@@ -233,6 +234,8 @@ a, .a {
 
   & > svg {
     margin-right: 4px;
+    width: $icon-medium;
+    height: $icon-medium;
   }
 }
 
@@ -254,6 +257,8 @@ a.meta-link {
 
   svg {
     margin-right: $var-spacing-xsmall;
+    width: $icon-medium;
+    height: $icon-medium;
   }
 
   span {
@@ -686,6 +691,12 @@ header {
   @extend .h6;
   text-align: center;
   text-decoration: none !important;
+  border-radius: $border-radius-none;
+
+  svg {
+    width: $icon-medium;
+    height: $icon-medium;
+  }
 
   svg path {
     fill: $color-text-white;
@@ -709,9 +720,11 @@ header {
 
   }
 
-  &.primary {
+  &.secondary {
     color: $color-text-gray-1;
-    background-color: $color-background-accent-blue;
+    background-color: $white;
+    border: $border-width-thin $color-border-gray-1 solid;
+    border-radius: $border-radius-none;
 
     svg path {
       fill: $color-text-gray-1;

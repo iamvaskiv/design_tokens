@@ -14,6 +14,8 @@ const { getToken } = require('./figma_tokens/util');
 
 const publicFolder = './public';
 
+const base = 16;
+
 
 theo.registerFormat("ios.swift", result => {
   // "result" is an Immutable.Map
@@ -62,7 +64,7 @@ theo.registerValueTransform(
     const value = prop.get('value');
 
     if (value.includes('rem')) {
-      return `CGFloat(${value.replace('rem', '')*16})`;
+      return `CGFloat(${value.replace('rem', '')*base})`;
     } else {
       return `CGFloat(${prop.get('value').replace('px', '')})`;
     }
@@ -84,7 +86,7 @@ theo.registerValueTransform(
     const value = prop.get('value');
 
     if (value.includes('rem')) {
-      return `${value.replace('rem', '')*16}sp`;
+      return `${value.replace('rem', '')*base}sp`;
     } else if (value.includes('px')) {
       return `${prop.get('value').replace('px', '')}dp`;
     } else {

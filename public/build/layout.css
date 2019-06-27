@@ -78,7 +78,8 @@
 html, body {
   font-family: "Open Sans";
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 16px; }
 
 body {
   padding-top: 146px; }
@@ -94,8 +95,8 @@ h2, .h2 {
   font-weight: 600;
   line-height: 2rem;
   color: #282828;
-  margin-top: 8px;
-  margin-bottom: 16px; }
+  margin-top: 0.5rem;
+  margin-bottom: 1rem; }
 
 h3, .h3 {
   font-family: "Open Sans";
@@ -103,8 +104,8 @@ h3, .h3 {
   font-weight: 600;
   line-height: 1.75rem;
   color: #282828;
-  margin-top: 8px;
-  margin-bottom: 4px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
   display: block; }
 
 h4, .h4 {
@@ -120,8 +121,8 @@ h5, .h5 {
   font-weight: 600;
   line-height: 1.25rem;
   color: #282828;
-  margin-top: 8px;
-  margin-bottom: 8px; }
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
   h5 span, .h5 span {
     color: #595959; }
 
@@ -174,7 +175,9 @@ a:hover, a:hover > span, .a:hover, .a:hover > span {
   .small-link > * {
     float: left; }
   .small-link > svg {
-    margin-right: 4px; }
+    margin-right: 4px;
+    width: 1.5rem;
+    height: 1.5rem; }
 
 a.meta-link {
   display: block;
@@ -192,7 +195,9 @@ a.meta-link {
   a.meta-link > * {
     float: left; }
   a.meta-link svg {
-    margin-right: 4px; }
+    margin-right: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem; }
   a.meta-link span {
     position: relative;
     top: 2px; }
@@ -217,8 +222,8 @@ header {
   top: 0;
   left: 0; }
   header .meta {
-    padding-top: 8px;
-    padding-bottom: 8px; }
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
     header .meta:before, header .meta:after {
       content: '';
       clear: both;
@@ -240,8 +245,8 @@ header {
   header .navigation {
     border-top: 1px #e2e2e2 solid;
     border-bottom: 1px #e2e2e2 solid;
-    padding-top: 24px;
-    padding-bottom: 24px; }
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; }
     header .navigation:before, header .navigation:after {
       content: '';
       clear: both;
@@ -278,8 +283,8 @@ header {
         color: #595959; }
 
 .breadcrumbs-wrapper {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-left: 24px;
   padding-right: 24px; }
 
@@ -341,8 +346,8 @@ header {
     padding-right: 64px; }
   .product-info .like {
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     position: absolute;
     right: 0;
     top: 12px; }
@@ -359,7 +364,7 @@ header {
   display: inline-block;
   border: 1px #282828 solid;
   padding: 3px 10px 3px;
-  margin-bottom: 16px; }
+  margin-bottom: 1rem; }
 
 .price span:not(.vat) {
   display: block; }
@@ -367,11 +372,11 @@ header {
 .price .vat {
   display: block;
   color: #595959;
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
   border-bottom: 1px #e2e2e2 solid; }
 
 .item {
-  padding-top: 16px; }
+  padding-top: 1rem; }
 
 .color-selector {
   list-style: none;
@@ -385,8 +390,8 @@ header {
     width: 100%; }
   .color-selector li {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     float: left;
     padding: 3px;
     border: 1px white solid;
@@ -403,7 +408,7 @@ header {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-bottom: 16px; }
+  margin-bottom: 1rem; }
   .size-selector .row {
     margin-left: -4px;
     margin-right: -4px; }
@@ -442,7 +447,7 @@ header {
   margin-top: 4px; }
 
 .size-advise-wrapper {
-  padding-bottom: 16px; }
+  padding-bottom: 1rem; }
   .size-advise-wrapper:before, .size-advise-wrapper:after {
     content: '';
     clear: both;
@@ -515,9 +520,9 @@ header {
       transform: translate(-50%, -50%) rotate(90deg); }
 
 .cart-controls {
-  padding-top: 16px; }
+  padding-top: 1rem; }
   .cart-controls .row {
-    padding-bottom: 16px; }
+    padding-bottom: 1rem; }
 
 .btn {
   display: block;
@@ -527,7 +532,11 @@ header {
   background-color: #282828;
   color: white;
   text-align: center;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  border-radius: 0px; }
+  .btn svg {
+    width: 1.5rem;
+    height: 1.5rem; }
   .btn svg path {
     fill: white; }
   .btn .btn-content {
@@ -544,12 +553,14 @@ header {
       float: left; }
     .btn .btn-content > svg {
       margin-right: 7px; }
-  .btn.primary {
+  .btn.secondary {
     color: #282828;
-    background-color: #cde5ef; }
-    .btn.primary svg path {
+    background-color: white;
+    border: 1px #282828 solid;
+    border-radius: 0px; }
+    .btn.secondary svg path {
       fill: #282828; }
-    .btn.primary:hover {
+    .btn.secondary:hover {
       background-color: #aed3e4; }
 
 .see-product-details {

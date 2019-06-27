@@ -133,6 +133,12 @@
       "category": "font"
     },
     {
+      "name": "base-size",
+      "value": "16px",
+      "type": "size",
+      "category": "font"
+    },
+    {
       "name": "black",
       "value": "#000000",
       "type": "color",
@@ -284,73 +290,73 @@
     },
     {
       "name": "var-spacing-xsmall",
-      "value": "4px",
+      "value": "0.25rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-spacing-small",
-      "value": "8px",
+      "value": "0.5rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-spacing-quite-small",
-      "value": "12px",
+      "value": "0.75rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-spacing-base",
-      "value": "16px",
+      "value": "1rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-spacing-big",
-      "value": "24px",
+      "value": "1.5rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-spacing-large",
-      "value": "32px",
+      "value": "2rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-spacing-xlarge",
-      "value": "40px",
+      "value": "2.5rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-layout-spacing-base",
-      "value": "16px",
+      "value": "1rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-layout-spacing-big",
-      "value": "24px",
+      "value": "1.5rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-layout-spacing-large",
-      "value": "32px",
+      "value": "2rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-layout-spacing-xlarge",
-      "value": "48px",
+      "value": "3rem",
       "type": "size",
       "category": "Sacings"
     },
     {
       "name": "var-layout-spacing-xxlarge",
-      "value": "64px",
+      "value": "4rem",
       "type": "size",
       "category": "Sacings"
     },
@@ -362,25 +368,25 @@
     },
     {
       "name": "icon-small",
-      "value": "16px",
+      "value": "1rem",
       "type": "size",
       "category": "sizing"
     },
     {
       "name": "icon-medium",
-      "value": "24px",
+      "value": "1.5rem",
       "type": "size",
       "category": "sizing"
     },
     {
       "name": "icon-big",
-      "value": "32px",
+      "value": "2rem",
       "type": "size",
       "category": "sizing"
     },
     {
       "name": "icon-huge",
-      "value": "40px",
+      "value": "2.5rem",
       "type": "size",
       "category": "sizing"
     },
@@ -410,13 +416,13 @@
     },
     {
       "name": "border-radius-none",
-      "value": "0%",
+      "value": "0px",
       "type": "size",
       "category": "border-radius"
     },
     {
       "name": "border-radius-circle",
-      "value": "50%",
+      "value": "100px",
       "type": "size",
       "category": "border-radius"
     }

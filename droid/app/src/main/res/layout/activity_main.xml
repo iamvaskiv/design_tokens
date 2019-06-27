@@ -17,7 +17,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintTop_toTopOf="parent"
             android:paddingTop="@dimen/VAR_SPACING_QUITE_SMALL" android:paddingBottom="@dimen/VAR_SPACING_QUITE_SMALL"
-            android:shadowRadius="0" android:shadowColor="#00FFFFFF" android:background="@color/COLOR_BACKGROUND_GRAY_1"
-            android:textColor="@color/COLOR_TEXT_WHITE" android:fontFamily="@font/open_sans_bold"/>
+            android:shadowRadius="0" android:shadowColor="#00FFFFFF" android:background="@drawable/btn_rounded"
+            android:textColor="@color/COLOR_TEXT_WHITE" android:fontFamily="@font/open_sans_bold"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

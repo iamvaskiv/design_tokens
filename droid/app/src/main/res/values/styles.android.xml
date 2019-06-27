@@ -22,6 +22,7 @@
   <dimen name="LETTER_SPACING_NARROW" category="font">-0.02</dimen>
   <dimen name="LETTER_SPACING_XNARROW" category="font">-0.03</dimen>
   <dimen name="LETTER_SPACING_NORMAL" category="font">-0.01</dimen>
+  <dimen name="BASE_SIZE" category="font">16dp</dimen>
   <color name="BLACK" category="colors">#ff000000</color>
   <color name="WHITE" category="colors">#ffffffff</color>
   <color name="BLACK_GRAY_1" category="colors">#ff282828</color>
@@ -47,27 +48,27 @@
   <color name="COLOR_TEXT_GRAY_2" category="colors">#ff595959</color>
   <color name="COLOR_TEXT_RED" category="colors">#ffab2634</color>
   <color name="COLOR_TEXT_WHITE" category="colors">#ffffffff</color>
-  <dimen name="VAR_SPACING_XSMALL" category="Sacings">4dp</dimen>
-  <dimen name="VAR_SPACING_SMALL" category="Sacings">8dp</dimen>
-  <dimen name="VAR_SPACING_QUITE_SMALL" category="Sacings">12dp</dimen>
-  <dimen name="VAR_SPACING_BASE" category="Sacings">16dp</dimen>
-  <dimen name="VAR_SPACING_BIG" category="Sacings">24dp</dimen>
-  <dimen name="VAR_SPACING_LARGE" category="Sacings">32dp</dimen>
-  <dimen name="VAR_SPACING_XLARGE" category="Sacings">40dp</dimen>
-  <dimen name="VAR_LAYOUT_SPACING_BASE" category="Sacings">16dp</dimen>
-  <dimen name="VAR_LAYOUT_SPACING_BIG" category="Sacings">24dp</dimen>
-  <dimen name="VAR_LAYOUT_SPACING_LARGE" category="Sacings">32dp</dimen>
-  <dimen name="VAR_LAYOUT_SPACING_XLARGE" category="Sacings">48dp</dimen>
-  <dimen name="VAR_LAYOUT_SPACING_XXLARGE" category="Sacings">64dp</dimen>
+  <dimen name="VAR_SPACING_XSMALL" category="Sacings">4sp</dimen>
+  <dimen name="VAR_SPACING_SMALL" category="Sacings">8sp</dimen>
+  <dimen name="VAR_SPACING_QUITE_SMALL" category="Sacings">12sp</dimen>
+  <dimen name="VAR_SPACING_BASE" category="Sacings">16sp</dimen>
+  <dimen name="VAR_SPACING_BIG" category="Sacings">24sp</dimen>
+  <dimen name="VAR_SPACING_LARGE" category="Sacings">32sp</dimen>
+  <dimen name="VAR_SPACING_XLARGE" category="Sacings">40sp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_BASE" category="Sacings">16sp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_BIG" category="Sacings">24sp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_LARGE" category="Sacings">32sp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_XLARGE" category="Sacings">48sp</dimen>
+  <dimen name="VAR_LAYOUT_SPACING_XXLARGE" category="Sacings">64sp</dimen>
   <dimen name="BORDER_WIDTH_THIN" category="sizing">1dp</dimen>
-  <dimen name="ICON_SMALL" category="sizing">16dp</dimen>
-  <dimen name="ICON_MEDIUM" category="sizing">24dp</dimen>
-  <dimen name="ICON_BIG" category="sizing">32dp</dimen>
-  <dimen name="ICON_HUGE" category="sizing">40dp</dimen>
+  <dimen name="ICON_SMALL" category="sizing">16sp</dimen>
+  <dimen name="ICON_MEDIUM" category="sizing">24sp</dimen>
+  <dimen name="ICON_BIG" category="sizing">32sp</dimen>
+  <dimen name="ICON_HUGE" category="sizing">40sp</dimen>
   <string name="MQ_SMALL" category="Media queries">&quot;max-width: 599px&quot;</string>
   <string name="MQ_MEDIUM" category="Media queries">&quot;min-width: 600px&quot;</string>
   <string name="MQ_LARGE" category="Media queries">&quot;min-width: 960px&quot;</string>
   <string name="MQ_XLARGE" category="Media queries">&quot;min-width: 1440px&quot;</string>
-  <dimen name="BORDER_RADIUS_NONE" category="border-radius">0</dimen>
-  <dimen name="BORDER_RADIUS_CIRCLE" category="border-radius">0.5</dimen>
+  <dimen name="BORDER_RADIUS_NONE" category="border-radius">0dp</dimen>
+  <dimen name="BORDER_RADIUS_CIRCLE" category="border-radius">100dp</dimen>
 </resources>

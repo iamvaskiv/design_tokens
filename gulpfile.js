@@ -6,9 +6,9 @@ const sass        = require('gulp-sass');
 const rename      = require('gulp-rename');
 const gulpTheo    = require('gulp-theo');
 const theo        = require("theo");
-const camelCase = require("lodash/camelCase");
-const path = require("path");
-const tinycolor = require('tinycolor2');
+const camelCase   = require("lodash/camelCase");
+const path        = require("path");
+const tinycolor   = require('tinycolor2');
 
 const { getToken } = require('./figma_tokens/util');
 

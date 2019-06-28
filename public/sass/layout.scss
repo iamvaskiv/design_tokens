@@ -48,7 +48,7 @@
   position: relative;
 }
 
-@media ($mq-large) {
+@media (min-width: 960px) {
   .col-lg-5 {
     width: 41.666667%;
   }
@@ -62,7 +62,7 @@
   }
 }
 
-@media ($mq-xlarge) {
+@media (min-width: 1440px) {
   .col-xl-8 {
     width: 66.666667%;
   }
@@ -683,7 +683,7 @@ header {
 
 .btn {
   display: block;
-  padding: 12px 16px 12px;
+  padding: $var-spacing-quite-small 16px $var-spacing-quite-small;
   width: 100%;
   float: left;
   background-color: $color-background-gray-1;

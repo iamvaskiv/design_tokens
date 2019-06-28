@@ -56,7 +56,7 @@
     },
     {
       "name": "var-font-size-6",
-      "value": "1rem",
+      "value": "1.5rem",
       "type": "size",
       "category": "font"
     },
@@ -242,7 +242,7 @@
     },
     {
       "name": "color-background-gray-1",
-      "value": "#282828",
+      "value": "#CDE5EF",
       "type": "color",
       "category": "colors"
     },
@@ -302,7 +302,7 @@
     },
     {
       "name": "var-spacing-quite-small",
-      "value": "0.75rem",
+      "value": "1.25rem",
       "type": "size",
       "category": "Sacings"
     },
@@ -391,32 +391,8 @@
       "category": "sizing"
     },
     {
-      "name": "mq-small",
-      "value": "max-width: 599px",
-      "type": "string",
-      "category": "Media queries"
-    },
-    {
-      "name": "mq-medium",
-      "value": "min-width: 600px",
-      "type": "string",
-      "category": "Media queries"
-    },
-    {
-      "name": "mq-large",
-      "value": "min-width: 960px",
-      "type": "string",
-      "category": "Media queries"
-    },
-    {
-      "name": "mq-xlarge",
-      "value": "min-width: 1440px",
-      "type": "string",
-      "category": "Media queries"
-    },
-    {
       "name": "border-radius-none",
-      "value": "0px",
+      "value": "20px",
       "type": "size",
       "category": "border-radius"
     },

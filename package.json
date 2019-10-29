@@ -17,7 +17,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-streamify": "^1.0.2",
     "gulp-theo": "^2.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "node-fetch": "^2.6.0",
     "style-dictionary": "^2.8.0",
     "theo": "^8.1.3",
